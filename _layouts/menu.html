@@ -42,6 +42,17 @@
 						{% endfor %}
 					</ul>
 				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.sides.title }}</h4>
+					<h5 class="desc">{{ page.sides.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.sides.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
 			</section>
 
 			<section class="span4">
@@ -129,17 +140,6 @@
 					<h5 class="desc">{{ page.salads.desc }}</h5>
 					<ul class="menu" id="subs">
 						{% for item in page.salads.items %}
-							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
-								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
-						{% endfor %}
-					</ul>
-				</div>
-
-				<div class="hero-unit">
-					<h4>{{ page.sides.title }}</h4>
-					<h5 class="desc">{{ page.sides.desc }}</h5>
-					<ul class="menu" id="subs">
-						{% for item in page.sides.items %}
 							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
 								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
 						{% endfor %}
