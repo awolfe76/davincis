@@ -160,6 +160,10 @@ footer { font-size:10px; line-height:1; padding-top:20px; text-align:right; }
     #nav_main {
         margin-top: 20px;
     }
+    #nav_main li {
+        display:inline;
+        margin-left:10px;
+    }
     .pull-right {
         float:none;
         text-align: center;
