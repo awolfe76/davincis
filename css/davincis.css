@@ -157,12 +157,18 @@ footer { font-size:10px; line-height:1; padding-top:20px; text-align:right; }
     #banner, #logo-container {
         text-align: center;
     }
+    #banner .span6 {
+        text-align: center;
+    }
     #nav_main {
         margin-top: 20px;
     }
     #nav_main li {
         display:inline;
-        margin-left:10px;
+        margin-left:20px;
+    }
+    #nav_main li a {
+        font-size: 14px;
     }
     .pull-right {
         float:none;
