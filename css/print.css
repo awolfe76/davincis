@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner { background-color:#FFF; border-bottom:none; color:#333; font-size:12px; padding:3px 0; text-transform:uppercase; }
+h2, h3, #nav_main, #print_menu { display:none; }
+.menu li { line-height:1; overflow:hidden; padding:5px 0; }

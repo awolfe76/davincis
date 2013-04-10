@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans:400,700);
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+html {
+    font-size: 100%;
+}
+body {
+    background: none repeat scroll 0 0 white;
+    color: #333333;
+    font-family: "Open Sans",Calibri,Helvetica,Arial,Verdana,Geneva,"Liberation Sans",FreeSans,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+.hero-unit {
+    background-color: #f5f5f5;
+    padding:10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+h3 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+h4.specials {
+    background-image: url("../images/star.png");
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 20px 0 10px;
+    padding-left: 30px;
+}
+h5.desc {
+    color:#777777;
+    font-style:italic;
+    font-weight:normal;
+}
+ul, ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0.75em 0;
+}
+address {
+    font-style: normal;
+    margin: 0.75em 0;
+}
+a:link {
+    color: #FD4239;
+}
+a:visited {
+    color: #FD4239;
+}
+a:hover, a:focus, a:active {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:active {
+    outline: medium none;
+}
+a img {
+    border: medium none;
+}
+form, fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+input, button, select {
+    vertical-align: middle;
+}
+dl {
+    margin: 0.75em 0;
+}
+dt {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0.75em 0 0;
+}
+dd {
+    margin: 0.25em 0 0.25em 32px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.right { text-align:right; }
+.radius { border-radius:3px; -moz-border-radius:3px;-webkit-border-radius:3px; }
+.container { background-color:#F8F8F8; border-radius:3px; -moz-border-radius:3px;-webkit-border-radius:3px; padding:10px; }
+.lower { margin-top:10px; }
+hgroup { margin:20px 0; text-align:center; }
+#print_menu { margin-bottom:20px; }
+
+#banner { background-color:#FD4239; border-bottom:1px solid #dc291e; color:#FFF; font-size:12px; font-weight:bold; padding:10px 0 0; text-transform:uppercase; }
+	#banner .phone { text-align:center; }
+	#banner .address { text-align:right; }
+header { background-color:#F8F8F8; }
+	#nav_main { font-size:14px; font-weight:bold; margin-top:50px; }
+		#nav_main li { display:inline; margin-left:40px; }
+		#nav_main li a { font-size:20px; font-weight:bold; text-decoration:none; text-transform:uppercase; }
+		#nav_main li a:link, #nav_main li a:visited { color:#333; }
+		#nav_main li a:hover { color:#FD4239; }
+#main { padding-bottom:20px; }
+	a.btn { background-color:#FD4239; border-radius:3px; -moz-border-radius:3px;-webkit-border-radius:3px; color:#66110c; float:left; height:35px; padding:5px 0; width:280px; line-height:1.1; text-align:center; }
+	a:link.btn { display:block; margin-bottom: 10px; text-decoration:none; width:100%; }
+		.btn:hover { background-color:#f32837; }
+		a.btn em { color:#ffffff; display:block; font-size:16px; font-style:normal; font-weight:bold; margin-bottom: 3px; }
+        a.btn:hover em { color:#ffffff; }
+	#google_map, #restaurant { border-radius:3px; -moz-border-radius:3px;-webkit-border-radius:3px; }
+    #restaurant { border: 10px solid #f5f5f5; }
+    #google_map { width: 100% }
+	#specials li { border-bottom:1px solid #DDD; line-height:1.2; overflow:hidden; padding:7px 0; }
+	#specials li.last { border-bottom:none; }
+		#specials li span { float:right; width:70%; }
+		#specials li em { color:#00af4d; float:left; font-family:'Covered By Your Grace', Georgia; font-size:34px; font-style:normal; font-weight:normal; line-height:1; }
+	.menu li { line-height:1.2; overflow:hidden; padding:7px 0; }
+	.menu li.last { border-bottom:none; }
+	.menu li.additional { padding-top:0; }
+	.menu li.with_additional { padding-bottom:0; }
+		.menu li span { float:left; font-weight:bold; width:65%; }
+		.menu li em { color:#00af4d; float:right; font-style:normal; font-weight:normal; text-align:right; }
+        .menu h5 { text-align: left; }
+		.menu li i { color:#777; font-weight:normal; }
+	#nav_menu li { display:inline; margin-right:7px; }
+	
+footer { font-size:10px; line-height:1; padding-top:20px; text-align:right; }
+	footer a:link, footer a:visited, footer a:hover, footer a:active { color:#999; text-decoration:none; }
+
+@media (max-width: 767px) {
+    #banner, #logo-container {
+        text-align: center;
+    }
+    #nav_main {
+        margin-top: 20px;
+    }
+    .pull-right {
+        float:none;
+        text-align: center;
+    }
+}

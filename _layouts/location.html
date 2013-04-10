@@ -1,0 +1,31 @@
+{% include header.html %}
+<section id="main">
+	<div class="container-fluid">
+		<section class="row-fluid">
+			<hgroup class="span12">
+				<h2>{{ page.title }}</h2>
+				<h3>{{ page.subtitle }}</h3>
+			</hgroup>
+		</section>
+
+		<div class="row-fluid">
+			<section class="span8 hidden-phone">		
+				<div class="hero-unit">
+					<img id="google_map" src="http://maps.google.com/maps/api/staticmap?center=16105+McMullen+Hwy+SW,+Cumberland,+Allegany,+Maryland+21502&zoom=14&size=800x400&maptype=roadmap&markers=icon:http://www.davincispizzeria.com/images/map_icon.png|16105+McMullen+Hwy+SW&sensor=false" style="width:100%" />
+				</div>
+			</section>
+			<section class="span4">
+				<div class="hero-unit">
+					<a class="btn" href="http://maps.google.com/maps?oe=UTF-8&gfns=1&um=1&ie=UTF-8&q=16105+McMullen+Highway+%28Bel+Air+Plaza%29+Cumberland,+MD+21502&fb=1&gl=us&hnear=Charles+Town,+WV&cid=0,0,16135344834245277371&ei=UC48TeC_DMSRgQfc67G2CA&sa=X&oi=local_result&ct=image&resnum=1&ved=0CBQQnwIwAA" target="_blank"><em>One Convenient Location</em>View More Details and Get Directions!</a>
+					<p>Dine-in, call ahead for carry out, or call for a delivery. You'll enjoy every bite and we're confident you'll be back.</p>
+					<dl>
+						<dt>Phone</dt><dd>301-729-8111</dd>
+						<dt>Address</dt><dd>16105 McMullen Highway (Bel Air Plaza) Cumberland, MD 21502</dd>
+						<dt>Hours</dt><dd>Sunday 11:00 - 9:30<br />Monday - Thursday 10:30 - 9:30<br />Friday &amp; Saturday 10:30 - 10:30</dd>
+					</dl>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
+{% include footer.html %}

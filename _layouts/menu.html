@@ -1,0 +1,152 @@
+{% include header.html %}
+<section id="main">
+	<div class="container-fluid">
+		<section class="row-fluid">
+			<hgroup class="span12">
+				<h2>{{ page.title }}</h2>
+				<h3>{{ page.subtitle }}</h3>
+				<a id="print_menu" href="javascript:window.print();"><em>Print Our Menu</em></a>
+			</hgroup>
+		</section>
+
+		<div class="row-fluid">
+			<section class="span4">		
+				<div class="hero-unit">
+					<h4>{{ page.subs.title }}</h4>
+					<ul class="menu" id="subs">
+						{% for item in page.subs.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.hoagies.title }}</h4>
+					<h5 class="desc">{{ page.hoagies.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.hoagies.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.sandwiches.title }}</h4>
+					<h5 class="desc">{{ page.sandwiches.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.sandwiches.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+
+			<section class="span4">
+				<div class="hero-unit">
+					<h4>{{ page.pizza.title }}</h4>
+					<h5 class="desc">{{ page.pizza.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.pizza.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.speciality-pizza.title }}</h4>
+					<h5 class="desc">{{ page.speciality-pizza.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.speciality-pizza.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.entrees.title }}</h4>
+					<h5 class="desc">{{ page.entrees.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.entrees.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.kids.title }}</h4>
+					<h5 class="desc">{{ page.kids.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.kids.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+
+			<section class="span4">
+				<div class="hero-unit">
+					<h4>{{ page.wings.title }}</h4>
+					<h5 class="desc">{{ page.wings.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.wings.items %}
+							<li><span>{{ item.name }} Wings{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.stromboli.title }}</h4>
+					<h5 class="desc">{{ page.stromboli.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.stromboli.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.calzone.title }}</h4>
+					<h5 class="desc">{{ page.calzone.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.calzone.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.salads.title }}</h4>
+					<h5 class="desc">{{ page.salads.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.salads.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="hero-unit">
+					<h4>{{ page.sides.title }}</h4>
+					<h5 class="desc">{{ page.sides.desc }}</h5>
+					<ul class="menu" id="subs">
+						{% for item in page.sides.items %}
+							<li><span>{{ item.name }}{% if item.desc %} - <i>{{ item.desc }}</i>{% endif %}</span> <em>${{ item.small }}
+								{% if item.large %}<br />${{ item.large }}{% endif %}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
+{% include footer.html %}

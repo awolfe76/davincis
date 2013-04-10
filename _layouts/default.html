@@ -1,0 +1,37 @@
+{% include header.html %}
+<section id="main">
+	<div class="container-fluid">
+		<section class="row-fluid">
+			<hgroup class="span12">
+				<h2>{{ page.title }}</h2>
+				<h3>{{ page.subtitle }}</h3>
+			</hgroup>
+		</section>
+
+		<div class="row-fluid">
+			<section class="span4 hidden-phone">		
+				<img alt="Davinci's Pizzeria" id="restaurant" src="images/seating.png" />
+			</section>
+			<section class="span4">
+				<div class="hero-unit">
+					<a class="btn" href="menu.html"><em>Wings, Subs, Pizza, and More</em>View Our Menu, Now Online!</a>
+					<p>Check out our menu for a delicious selection of speciality pizzas, strombolis, calzones, and so much more. From wings to subs, from hoagies to salads, DaVinci’s commitment to freshness will insure that you’ll enjoy your food from the first bite to the last.</p>
+					<h4 class="specials">SPECIALS</h4>
+					<ul id="specials">
+						{% for item in page.specials.items %}
+							<li><span>{{ item.desc }}</span> <em>${{ item.price }}</em></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+			<section class="span4">
+				<div class="hero-unit">
+					<a class="btn" href="location.html"><em>One Convenient Location</em>View a Larger Map and Directions</a>
+					<p>DaVinci's Pizzeria is conveniently located at 16105 McMullen Highway (Bel Air Plaza) Cumberland, MD 21502. Join us to dine-in, call ahead for carry out, or call for a delivery. You'll enjoy every bite and we're confident you'll be back.</p>
+					<img class="hidden-phone" id="google_map" src="http://maps.google.com/maps/api/staticmap?center=16105+McMullen+Hwy+SW,+Cumberland,+Allegany,+Maryland+21502&zoom=14&size=280x250&maptype=roadmap&markers=icon:http://www.davincispizzeria.com/images/map_icon.png|16105+McMullen+Hwy+SW&sensor=false" />
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
+{% include footer.html %}
