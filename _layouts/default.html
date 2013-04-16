@@ -19,7 +19,7 @@
 					<h4 class="specials">SPECIALS</h4>
 					<ul id="specials">
 						{% for item in page.specials.items %}
-							<li><span>{{ item.desc }}</span> <em>${{ item.price }}</em></li>
+							<li><span>{{ item.desc }}</span> <em>{{ item.price }}</em></li>
 						{% endfor %}
 					</ul>
 				</div>
