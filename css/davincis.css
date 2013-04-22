@@ -157,6 +157,9 @@ footer { font-size:10px; line-height:1; padding-top:20px; text-align:right; }
     #banner, #logo-container {
         text-align: center;
     }
+    #banner {
+        padding-bottom: 10px;
+    }
     #banner .span6 {
         text-align: center;
     }
