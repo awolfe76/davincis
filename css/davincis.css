@@ -140,6 +140,16 @@ header { background-color:#F8F8F8; }
 	#specials li.last { border-bottom:none; }
 		#specials li span { float:right; width:70%; }
 		#specials li em { color:#00af4d; float:left; font-family:'Covered By Your Grace', Georgia; font-size:34px; font-style:normal; font-weight:normal; line-height:1; }
+    .x-special {
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        padding: 10px 0;
+        text-align: center;
+    }
+        .x-special h5 {
+            color: #FD4239;
+            font-weight: bold;
+        }
 	.menu li { line-height:1.2; overflow:hidden; padding:7px 0; }
 	.menu li.last { border-bottom:none; }
 	.menu li.additional { padding-top:0; }
