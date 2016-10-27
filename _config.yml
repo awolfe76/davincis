@@ -1,11 +1,11 @@
 title: DaVinci&rsquo;s Pizzeria
 slogan: At DaVinci&rsquo;s, We&rsquo;re Reinventing the Pizza. Dine-In, Carry Out or Delivery, at DaVinci&rsquo;s, We&rsquo;re Confident You&rsquo;ll Be Back.
 desc : Check out our menu for a delicious selection of speciality pizzas, strombolis, calzones, and so much more. From wings to subs, from hoagies to salads, DaVinci’s commitment to freshness will insure that you’ll enjoy your food from the first bite to the last.
-options: Dine In, Carry Out, and Delivery 
+options: Dine In, Carry Out, and Delivery
 phone: 301-729-8111
 address: 16105 McMullen Highway (Bel Air Plaza) Cumberland, MD 21502
 
 #build config
 server: true
 auto: true
-markdown: rdiscount
+markdown: kramdown
