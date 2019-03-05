@@ -95,24 +95,24 @@ pizza:
   desc: Toppings - Pepperoni, Ground Beef, Italian Sausage, Meatball, Ham, Onion, Green Pepper, Hot Pepper, Sweet Pepper, Mushroom, Black Olive, Spinach, Tomato, Pineapple
   items:
   - name: Small 12" - 6 Slices
-    desc: add toppings $.95 each, extra cheese $1.25, everything $14.25
-    small: $9.25
+    desc: add toppings $.95 each, extra cheese $1.25, everything $14.99
+    small: $9.90
   - name: Medium 14" - 8 Slices
-    desc: add toppings $1.20 each, extra cheese $1.50, everything $16.50
-    small: $10.75
+    desc: add toppings $1.20 each, extra cheese $1.50, everything $16.99
+    small: $11.50
   - name: Large 16" - 12 Slices
-    desc: add toppings $1.45 each, extra cheese $1.80, everything $17.75
-    small: $11.95
+    desc: add toppings $1.45 each, extra cheese $1.80, everything $18.99
+    small: $12.75
 speciality-pizza:
   title: Specialty Pizza
   desc: Specialty pizzas are medium (14") size. For a small deduct $2.00. For a large (16") add $3.00.
   items:
   - name: DaVinci's Special
     desc: Saucy and loaded with Cheese &amp; Pepperoni
-    small: $14.50
+    small: $14.75
   - name: Hawaiian
     desc: Sauce, Mozzarella Cheese, Ham, Pineapple
-    small: $13.50
+    small: $13.75
   - name: Buffalo Chicken
     desc: Buffalo Sauce, Chicken, Bleu Cheese, Mozzarella Cheese
     small: $14.99
@@ -130,35 +130,35 @@ stromboli:
   items:
   - name: Traditional
     desc: Pepperoni, Ham, Sauce, Cheese
-    small: $6.70
-    large: $13.25
+    small: $7.25
+    large: $14.25
   - name: Works
     desc: Pepperoni, Ham, Sausage, Mushroom, Green Pepper, Onion, Sauce, Cheese
-    small: $7.00
-    large: $13.50
+    small: $7.50
+    large: $14.50
   - name: Cheese Steak
     desc: Grilled Steak &amp; Onion, Sauce, Cheese
-    small: $7.00
-    large: $13.50
+    small: $7.50
+    large: $14.50
   - name: Buffalo Chicken
     desc: Chicken, Cheese, Wing Sauce, Crumbled Cheese
-    small: $725
-    large: $14.25
+    small: $7.75
+    large: $14.75
   - name: Vegetable
     desc: Mushroom, Green Pepper, Onion, Sauce, Cheese
-    small: $6.70
-    large: $13.25
+    small: $7.25
+    large: $14.25
 calzone:
   title: Calzone
   items:
   - name: Ham &amp; Cheese
     desc: Ham, Mozzarella, Ricotta, Sauce
-    small: $6.75
-    large: $13.25
+    small: $7.25
+    large: $14.25
   - name: Spinach
     desc: Spinach, Mozzarella, Ricotta, Sauce
-    small: $6.75
-    large: $13.25
+    small: $7.25
+    large: $14.25
 wings:
   title: Buffalo Wings
   desc: Mild, Medium, Hot, Extra Hot, Old Bay, Butter &amp; Garlic, Tony's Sweet &amp; Hot Sauce, BBQ, Gold BBQ
