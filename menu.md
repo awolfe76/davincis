@@ -7,89 +7,89 @@ subs:
   items:
   - name: Cheese Steak
     desc: Grilled onions, provolone, seasoned lettuce, tomato, mayo
-    small: $7.75
-    large: $10.25
+    small: $8.25
+    large: $11.00
   - name: Toasted Cheese Steak
     desc: Our cheese steak sub toasted in oven
-    small: $7.75
-    large: $10.25
+    small: $8.25
+    large: $11.00
   - name: Meatball
     desc: Stuffed with meatballs, sauce, mozzarella
-    small: $7.00
-    large: $9.75
+    small: $8.00
+    large: $10.50
   - name: Chicken Parmesan
     desc: Crispy chicken tenders, seasoned lettuce, tomato, mayo
-    small: $7.75
-    large: $10.25
+    small: $8.25
+    large: $11.00
   - name: Chicken
     desc: Crispy chicken tenders, seasoned lettuce, tomato, mayo
-    small: $7.75
-    large: $10.25
+    small: $8.25
+    large: $11.00
   - name: Italian Sausage
     desc: Grilled onion &amp; sweet peppers, sauce, mozzalrella
-    small: $7.75
-    large: $10.25
+    small: $8.25
+    large: $11.00
   - name: Grilled Ham &amp; Cheese
     desc: Seasoned lettuce, tomato, mayo
-    small: $7.00
-    large: $9.75
+    small: $7.50
+    large: $10.25
 hoagies:
   title: Cold Hoagies
   items:
   - name: Ham &amp; Cheese
     desc: Seasoned lettuce, sweet peppers, pickles, tomato
-    small: $7.00
-    large: $9.75
+    small: $7.50
+    large: $10.50
   - name: Turkey &amp; Cheese
     desc: Seasoned lettuce, sweet peppers, pickles, tomato
-    small: $7.25
-    large: $9.95
+    small: $7.75
+    large: $10.50
   - name: Italian
     desc: Genoa salami, ham, provolone, seasoned lettuce, sweet peppers, pickles, tomato
-    small: $7.00
-    large: $9.75
+    small: $7.50
+    large: $10.25
 sandwiches:
   title: Sandwiches
   desc: Served with Fries
   items:
   - name: Buffalo Chicken
     desc: Buffalo sauce, lettuce, onion, bleu cheese dip
-    small: $5.79
+    small: $5.99
   - name: Chicken
     desc: Crispy tenderloins, lettuce, tomato, mayo
-    small: $5.59
+    small: $5.79
   - name: Cheese Burger
     desc: Lettuce, tomato, mayo
-    small: $5.70
+    small: $5.89
   - name: Double Cheese Burger
     desc: American cheese, lettuce, tomato, mayo
-    small: $7.25
+    small: $7.69
   - name: Bleu Bruger
     desc: Crumbled bleu cheese, bleu cheese dip, lettuce, mayo
     small: $5.99
   - name: Cannon Burger
     desc: Ham, cheese, hot peppers, onions, mayo, spices (served with Cannon Fries)
-    small: $6.50
+    small: $6.59
 entrees:
   title: Entrees
   desc: Pasta entrees are served with side salad &amp; garlic bread
   items:
   - name: Penne Alfredo
     desc: Penne Pasta, Creamy Parmesan &amp; Romano Cheese Sauce
-    small: $9.89
+    small: $10.25
   - name: Penne Alfredo w/ Chicken
     desc: Penne pasta, chicken, creamy parmesan, & Romano cheese sauce
-    large: $11.79
+    large: $12.49
   - name: Lasagna
     desc: Sausage, Ground Beef, Sauce, Mozzarella, Provolone, Ricotta, Parmesan Cheese
-    small: $11.59
+    small: $12.49
   - name: Spaghetti with Meatballs
     desc: Spaghetti with marinara sauce &amp; Italian Meatballs
-    small: $10.79
+    small: $10.99
   - name: Chicken Fingers &amp; Fries
     desc: Sauces - BBQ, Gold BBQ, Mild, Medium, Hot
-    small: $7.49 4 pc.
-    large: $9.69 6 pc.
+    small: $7.79 4 pc.
+    large: $9.99 6 pc.
 pizza:
   title: New York Style Pizza
   desc: Toppings - Pepperoni, Ground Beef, Italian Sausage, Meatball, Ham, Onion, Green Pepper, Hot Pepper, Sweet Pepper, Mushroom, Black Olive, Spinach, Tomato, Pineapple
@@ -165,24 +165,24 @@ wings:
   add: Served with Celery &amp; Bleu Cheese Dip
   items:
   - name: 5
-    small: $5.99
+    small: $6.79
   - name: 10
-    small: $9.69
+    small: $11.00
   - name: 20
-    small: $18.99
+    small: $20.25
   - name: 30
-    small: $27.99
+    small: $29.50
   - name: 50
-    small: $45.99
+    small: $48.75
 wedgies:
   title: Wedgies
   items:
   - name: Ham &amp; Cheese
     desc: Ham, provolone, lettuce, tomato, mayo
-    small: $10.99
+    small: $11.50
   - name: Steak &amp; Cheese
     desc: Grilled steak &amp; onions, provolone, lettuce, tomato, mayo
-    small: $11.79
+    small: $12.25
 salads:
   title: Salads
   desc: Dressings - Ranch, Bleu Cheese, DaVinci’s French, Italian, Balsamic Vinaigrette, Seasoned Lettuce. All dressings are made in house!
