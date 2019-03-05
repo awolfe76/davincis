@@ -188,61 +188,63 @@ salads:
   desc: Dressings - Ranch, Bleu Cheese, DaVinci’s French, Italian, Balsamic Vinaigrette, Seasoned Lettuce. All dressings are made in house!
   items:
   - name: Side Salad
-    small: $3.15
+    small: $3.49
   - name: Garden Salad
-    small: $5.25
+    small: $5.79
   - name: Cheese Steak
-    small: $7.49
+    small: $7.99
   - name: Buffalo Chicken
-    small: $7.49
+    small: $7.99
   - name: Crispy Chicken
-    small: $7.29
+    small: $7.89
   - name: Grilled Chicken
-    small: $7.29
+    small: $7.79
   - name: Turkey &amp; Provolone
-    small: $6.99
+    small: $7.59
   - name: Ham &amp; Provolone
-    small: $6.59
+    small: $6.99
   - name: Chef Salad
     desc: Fresh salad mix w/ croutons, sweet peppers, red onion, black olives, &amp; tomato
-    small: $7.29
+    small: $7.99
   - name: Taco Salad
     desc: Seasoned ground beef, cheddar, red onion, black olives, tomato, tortilla chips, salsa and sour cream on the side
-    small: $7.99
+    small: $8.89
 sides:
   title: Starters &amp; Sides
   items:
   - name: French Fries
-    small: $2.29
+    small: $2.59
   - name: Cannon Fries
-    small: $2.79
+    small: $2.99
   - name: Bleu Cheese Dip &amp; Celery
     small: $2.50
   - name: Mozzarella Sticks
     desc: w/ side of marinara
-    small: $3.59 (3)
-    large: $5.99 (7)
+    small: $3.79 (3)
+    large: $6.29 (7)
   - name: Bread Sticks
     desc: w/ side of marinara
-    small: $2.69 (4)
-    large: $4.29 (7)
+    small: $2.99 (4)
+    large: $4.79 (7)
   - name: Petals, Sticks, &amp; Fries
     desc: Mozzarella Sticks, Onion Petals, &amp; Cannon Fries &amp; dips
-    small: $6.99
+    small: $8.69
   - name: Cheesy Bread
     desc: Stuffed w/ Mozzarella Cheese w/ Garlic Butter &amp; Parmesan Cheese
-    small: $5.69
+    small: $5.99
   - name: Onion Petals
     desc: Served w/ our dip
-    small: $5.49
+    small: $5.89
 kids:
   title: Kid's Menu
   items:
   - name: Chicken Fingers (2) &amp; French Fries
-    small: $4.99
+    small: $5.25
   - name: Penne Alfredo
-    small: $5.69
+    small: $5.89
     large: $6.99 w/ chicken
-  - name: Bambino Cheese Pizza (add. toppings .55 each)
-    small: $5.49
+  - name: Bambino Cheese Pizza (add. toppings .60 each)
+    small: $5.70
+  - name: Spaghetti with Meatballs
+    small: $5.89
 ---
